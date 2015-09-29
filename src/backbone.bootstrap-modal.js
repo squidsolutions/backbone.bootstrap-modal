@@ -219,10 +219,6 @@
         });
       }
 
-      this.on('cancel', function() {
-        self.close();
-      });
-
       Modal.count++;
 
       //Run callback on OK if provided
