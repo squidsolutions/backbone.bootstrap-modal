@@ -80,10 +80,6 @@
         if (this.options.content && this.options.content.trigger) {
           this.options.content.trigger('ok', this);
         }
-
-        if (this.options.okCloses) {
-          this.close();
-        }
       },
       'keypress': function(event) {
         if (this.options.enterTriggersOk && event.which == 13) {
